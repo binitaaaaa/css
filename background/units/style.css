@@ -1,0 +1,37 @@
+/* units */
+/* absolute units :fixed*/
+h1{
+    font-size: 50px; /* in px */
+}
+/* relative units */
+ /* html{
+    font-size: 16px;
+} */
+ div{
+    font-size: 10px;
+    }
+p{
+    font-size: 3rem; /* 1 rem =16px */
+}
+
+
+div{
+    font-size: 10px;
+
+}
+.parent{
+    background-color: red;
+    height: 100vh;
+    width:100%;
+}
+.child{
+    background-color: yellow;
+    height: 30px;
+    width:50%;
+}
+
+.grandchild{
+    background-color: lightgreen;
+    height: 30px
+    width:50%;
+}

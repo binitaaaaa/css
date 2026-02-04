@@ -1,0 +1,42 @@
+/* h1{
+    color:red;
+} */
+ p{
+    color:blue;
+} */
+ p{
+    color:rgb(red, green, blue)
+
+ }
+ h1{
+    color: red;
+ }
+ /*for id selector use "#" */
+ /* #head1 {    
+
+    color: brown;
+ }
+/* priority id>class>element>universal */
+ #para1{
+    color: orange;
+ }
+ .coloraqua{
+    color:aqua;
+ }
+
+ #para2{
+    color: yellow;
+ }
+ .one{
+    background-color: lightgrey;
+ }
+ */
+ h1{
+    color: red;
+ } */
+/* grouping selector */
+ #head1,#para1{
+    color: ;
+    background-color: bisque;
+ }
+ 

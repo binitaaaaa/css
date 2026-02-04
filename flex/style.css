@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height:100;
+    width:100%
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.parent{
+    border:2px solid red;
+    height:500px ;
+    width:60%;
+    margin:20px auto;
+    position: relative;
+    display:flex;
+    /* flex-direction: row-reverse;  */
+    /* flex-direction: column; */
+    flex-direction: row;
+
+
+    /* main axis */
+
+
+    /* justify-content: flex-end; */
+    justify-content: center; 
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+
+/* cross axis */
+align-items: center;
+ /* gap: 20px; */
+ /* flex-wrap: wrap; */
+ align-content: start;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+}
+
+#box1{
+    background-color:lightblue;
+    flex-grow:1;
+    /* position: relative; */
+    /* top:20px; */
+    /* left:50px; */
+    /* z-index: 1; */
+}
+#box2{
+    background-color:lightgreen;
+    flex-grow: 2;
+    /* position: absolute; */
+    /* top:50px; */
+    /* left:20px; */
+    /* transform:translate(50px, 50px); */
+    
+
+}
+#box3{
+    background-color:lightcoral;
+    /* flex-shrink: 3; */
+    /* flex-basis: 200px; */
+    
+     /* position: fixed;  */
+    /* top:200px;  */
+    /* left:500px;      */
+    /* z-index: 0; */
+flex:1 0 100px
+
+}
+
+#box4{
+    background-color:lightgoldenrodyellow;
+    /* position: sticky; */
+    /* top:20%; */
+    /* margin-top:150px; */
+}

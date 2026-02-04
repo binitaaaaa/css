@@ -1,0 +1,39 @@
+@import<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ @font-face {
+    font-family: abc;
+    /* src: url(../../../chandia/Chandia_PERSONAL_USE_ONLY.otf); */
+ }
+
+
+
+p{
+    /* font-family:"Playfair Display", sans-serif; */
+    font-family: abc;
+    font-size:32px;
+
+    font-weight:bolder;
+    font-style: italic;
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+      /* text-decoration-line: underline;  */
+    /* text-decoration-color: brown; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-thickness: 5px; */
+    text-decoration: overline red wavy 10px;
+
+
+     text-transform: capitalize;
+
+     letter-spacing: 5px;
+        word-spacing: 20px;
+        
+
+        text-shadow: 4px 4px 5px red,
+                     -4px -4px 5px blue;
+
+}

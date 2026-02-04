@@ -1,0 +1,11 @@
+/* selector{
+    declaration;(property:value)
+}*/
+
+/* external css */
+p{
+    color: rebeccapurple;
+    width: 500px;
+    height: 500px;
+}
+<h1>

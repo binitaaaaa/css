@@ -1,0 +1,15 @@
+h1{
+    /* color: blue; */
+    
+    /* 0-255 */
+    /* color: rgb(255, 0,0); */
+    /* alpha(opacity)value range=0-1 */
+    /* color:rgba(255, 0, 0, 0.7);  */
+
+    /* color:#0000FF; hexadecimal */
+    color:red hsl(0,75%,60%);
+}
+    /* p{ */ */
+        /* color: blue; */
+        color: rgb(0, 0, 255);
+    }

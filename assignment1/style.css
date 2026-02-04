@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #000;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid #888;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.video-container {
+    margin-top: 15px;
+}
+
+mark {
+    background-color: yellow;
+}
